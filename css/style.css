@@ -1,0 +1,62 @@
+.gradiant {
+  background: #3a6186; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #89253e,
+    #3a6186
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #89253e,
+    #3a6186
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+/* .showcase-image {
+  background-image: url("../Images/showcase.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+  background-size: 100%;
+
+  position: relative;
+} */
+.full {
+  height: 50px;
+  vertical-align: 50px
+}
+.jumbotron {
+  background-image: url("../Images/showcase1.jpg");
+  background-size: cover;
+  height: 500px;
+}
+.white-overlay {
+  background: #c33764; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #1d2671,
+    #c33764
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #1d2671,
+    #c33764
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  opacity: 0.8;
+}
+
+#special-section,
+#first-section {
+  background: url("../Images/bgscroll.jpg");
+  background-attachment: fixed;
+}
+
+.btn {
+  background-color: #3292a6;
+}
+.styles1 {
+  width: calc(100% / 2);
+}
+ul {
+  list-style-type: none;
+}
